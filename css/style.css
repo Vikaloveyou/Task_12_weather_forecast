@@ -1,0 +1,125 @@
+html {
+  font-size: 25px;
+}
+
+body {
+  font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-color: #2992cb;
+  border: 20px solid #1d6e96;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+.weather_forecast {
+  width: 50%;
+  margin: 50px auto;  
+}
+
+header {
+  font-weight: 700;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+ul {
+  background-color: white;
+  border: 2px solid white;
+  font-size: 0px;
+ }
+ 
+li {
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  border: 2px solid white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+li:nth-child(1) {
+  background-color: #3399cc;
+  width: 50%;
+}
+
+li:nth-child(2) {
+  background-color: #33cccc;
+  width: 25%;
+}
+
+li:nth-child(3) {
+  background-color: #996699;
+  width: 25%;
+}
+
+li:nth-child(4) {
+  background-color: #c24747;
+  width: 25%;
+}
+
+li:nth-child(5) {
+  background-color: #e2674a;
+  width: 25%;
+}
+
+li:nth-child(6) {
+  background-color: #ffcc66;
+  width: 25%;
+}
+
+li:nth-child(7) {
+  background-color: #99cc99;
+  width: 25%;
+}
+
+li:nth-child(8) {
+  background-color: #669999;
+  width: 25%;
+}
+
+li:nth-child(9) {
+  background-color: #cc6699;
+  width: 50%;
+}
+
+li:nth-child(10) {
+  background-color: #339966;
+  width: 25%;
+}
+
+li:nth-child(11) {
+  background-color: #666699;
+  width: 100%;
+}
+
+i{
+  font-size: 1.3rem;
+}
+
+li p:last-child {
+  opacity: 60%;
+}
+
+.tittle {
+  margin-top: 20px;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+ul:hover > li {
+  opacity: 0.4;
+}
+
+ul:hover > li:hover {
+  opacity: 1;
+}
